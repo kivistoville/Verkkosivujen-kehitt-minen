@@ -1,0 +1,58 @@
+/* Styles for h1 */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Example color */
+    margin-bottom: 10px;
+}
+
+/* Styles for h2 */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666; /* Example color */
+    margin-bottom: 8px;
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444; /* Example color */
+    margin-bottom: 16px;
+}
+
+/* Styles for ordered list */
+ol {
+    margin-bottom: 16px;
+}
+
+/* Styles for unordered list */
+ul {
+    margin-bottom: 16px;
+}
+
+/* Styles for list items */
+li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555; /* Example color */
+    margin-bottom: 8px;
+}
+
+/* Styles for description lists */
+dl {
+    margin-bottom: 16px;
+}
+
+/* Styles for description list key items */
+dt {
+    font-weight: bold;
+    color: #666; /* Example color */
+}
+
+/* Styles for description list value items */
+dd {
+    margin-left: 0;
+    color: #777; /* Example color */
+}
