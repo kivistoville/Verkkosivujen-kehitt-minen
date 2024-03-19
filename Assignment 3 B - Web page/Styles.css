@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+    color: green;
+}
+
+.styled-div {
+    border: 2px dotted;
+    width: 100px;
+    height: 100px;
+}
+
+.letter-list {
+    list-style-type: lower-alpha;
+}
+
+.square-list {
+    list-style-type: square;
+}
