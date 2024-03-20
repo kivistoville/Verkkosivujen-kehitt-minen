@@ -1,0 +1,39 @@
+
+body {
+  
+    background-color: #41b3a3;
+    color: aliceblue;
+}
+
+
+h1, h2 {
+
+    border-top: 5px #333;
+
+    
+    border-bottom: 10px solid #a39f9f; 
+}
+
+
+p {
+    background-color: #ab1d1d;
+    border: 15px solid #d91919;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+nav {
+    background-color: #e1d6d6;
+    padding: 15px;
+}
+
+.wrapper {
+    margin: 0%;
+    max-width: 1000px;
+}
+
+div {
+    margin-bottom: 10px;
+    color: #372121;
+}
