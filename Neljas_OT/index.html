@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMT taulukot ja lomakkeet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML taulukot ja lomakkeet</h1>
+
+    <h2>Nappi</h2>
+    <button class="mybutton">mybutton</button>
+
+    <h2>HTML taulukot</h2>
+    <caption>Nimi ja ikä taulukko</caption>
+    <table>
+        <tr>
+            <th colspan="2">Etu ja sukunimi</th>
+            <th>Ikä</th>
+        </tr>
+        <tr>
+            <th>Ville</th>
+            <th>Kivistö</th>
+            <th>34</th>
+        </tr>
+        <tr>
+            <th>Matti</th>
+            <th>Meikäläinen</th>
+            <th>99</th>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>HTML lomakkeet</h2>
+
+    <caption>Nimen tallennus</caption>
+    <form action="#">
+        <label for="etunimi">Etunimi</label><br>
+        <input type="text" id="etunimi" name="etunimi"><br>
+        <label for="sukunimi">sukunimi</label><br>
+        <input type="text" id="sukunimi"  name="sukunimi"><br>
+        <label for="ikä">ika</label><br>
+        <input type="number" id="ikä" min="1" max="5"><br>
+        <input type="submit" value="tallenna">
+    </form>
+
+    <br><br>
+    <input type="date">
+    <input type="color">
+    <select name="" id="">
+        <option value="Valinta">Valinta</option>
+        <option value="1">Yksi</option>
+        <option value="2">Kaksi</option>
+    </select>
+    
+</body>
+</html>
